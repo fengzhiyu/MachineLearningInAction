@@ -12,10 +12,11 @@ def plotNode(nodeTxt, centerPt, parentPt, nodeType):
                             xytext=centerPt, textcoords='axes fraction',\
                             va="center", ha="center", bbox=nodeType, arrowprops=arrow_args)
 
+
 def createPlot(inTree):
     """
     创建树形图
-    :return:
+    :return:返回一棵树形的图片
     """
     fig = plt.figure(1, facecolor='white')
     fig.clf()
