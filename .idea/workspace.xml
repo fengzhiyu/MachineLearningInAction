@@ -10,9 +10,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31892e0c-96e4-4466-b2c7-1f87c37d8c85" name="Default" comment="init add files.">
+    <list default="true" id="31892e0c-96e4-4466-b2c7-1f87c37d8c85" name="Default" comment="update createPlot">
+      <change afterPath="$PROJECT_DIR$/part_4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_4/bayers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part_3/decision_graphic_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/part_3/decision_graphic_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +45,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1blRx6sBbdRVunIyFW3bPkR3NfJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/part_3" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +69,28 @@
       <recent name="F:\Program\python program\MachineLearningInAction\part_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.decision_tree">
+  <component name="RunManager" selected="Python.bayers">
+    <configuration name="bayers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearningInAction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part_4/bayers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="decision_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningInAction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +136,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.bayers" />
       <item itemvalue="Python.decision_tree" />
       <item itemvalue="Python.kNN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bayers" />
         <item itemvalue="Python.decision_tree" />
         <item itemvalue="Python.kNN" />
       </list>
@@ -142,7 +170,9 @@
       <workItem from="1590074645375" duration="109000" />
       <workItem from="1590291792436" duration="5609000" />
       <workItem from="1590310714588" duration="2322000" />
-      <workItem from="1590314487387" duration="6935000" />
+      <workItem from="1590314487387" duration="7687000" />
+      <workItem from="1591365526961" duration="1534000" />
+      <workItem from="1591540735079" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="init add files.">
       <created>1590317285278</created>
@@ -151,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590317285278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update createPlot">
+      <created>1590336121791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590336121791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,9 +211,14 @@
       <path value="$PROJECT_DIR$/ref source" />
     </ignored-roots>
     <MESSAGE value="init add files." />
-    <option name="LAST_COMMIT_MESSAGE" value="init add files." />
+    <MESSAGE value="update createPlot" />
+    <option name="LAST_COMMIT_MESSAGE" value="update createPlot" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="879" y="152" key="#Python" timestamp="1591920792921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="879" y="152" key="#Python/0.0.1920.1040@0.0.1920.1040" timestamp="1591920792921" />
     <state x="417" y="127" key="FileChooserDialogImpl" timestamp="1590313231650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,38 +231,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="341" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314869709" />
-    <state width="661" height="99" key="GridCell.Tab.0.bottom" timestamp="1590310669173">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1591922274003">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="661" height="99" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590310669173" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589587995762" />
-    <state width="661" height="99" key="GridCell.Tab.0.center" timestamp="1590310669173">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274003" />
+    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1591922274002">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="661" height="99" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590310669173" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589587995762" />
-    <state width="661" height="99" key="GridCell.Tab.0.left" timestamp="1590310669172">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274002" />
+    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1591922274002">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="661" height="99" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590310669172" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589587995762" />
-    <state width="661" height="99" key="GridCell.Tab.0.right" timestamp="1590310669173">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274002" />
+    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1591922274003">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="661" height="99" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590310669173" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589587995762" />
-    <state x="177" y="17" key="SettingsEditor" timestamp="1590334950930">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274003" />
+    <state x="249" y="24" key="SettingsEditor" timestamp="1591922272876">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="177" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590334950930" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590335704176">
+    <state x="249" y="24" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591922272876" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590336145298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590335704176" />
-    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590335854713">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590336145298" />
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590336077921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590335854713" />
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590336077921" />
     <state x="343" y="151" key="git4idea.merge.GitPullDialog" timestamp="1590330581933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,8 +287,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MachineLearningInAction$decision_tree.coverage" NAME="decision_tree Coverage Results" MODIFIED="1590305828740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part_3" />
   </component>
 </project>
