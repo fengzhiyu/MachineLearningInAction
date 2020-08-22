@@ -158,7 +158,9 @@ def multiTest():
 # weights = stocGradAscent0(array(dataArr), labelMat)
 # print(weights)
 # plotBestFit(weights)
-
+# weights = stocGradAscent1(array(dataArr), labelMat)
+# print(weights)
+# plotBestFit(weights)
 multiTest()
 
 

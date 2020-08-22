@@ -10,30 +10,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31892e0c-96e4-4466-b2c7-1f87c37d8c85" name="Default" comment="update bayers.py">
-      <change afterPath="$PROJECT_DIR$/part_5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part_5/horseColicTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part_5/horseColicTraining.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part_5/logRegres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part_5/testSet.txt" afterDir="false" />
+    <list default="true" id="31892e0c-96e4-4466-b2c7-1f87c37d8c85" name="Default" comment="update bayers.py &#10;add logistics regression">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part_4/bayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/part_4/bayers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part_5/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/part_5/logRegres.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592494593310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update bayers.py &#10;add logistics regression">
+      <created>1598111263866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598111263866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +270,8 @@
     <MESSAGE value="init add files." />
     <MESSAGE value="update createPlot" />
     <MESSAGE value="update bayers.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update bayers.py" />
+    <MESSAGE value="update bayers.py &#10;add logistics regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bayers.py &#10;add logistics regression" />
   </component>
   <component name="WindowStateProjectService">
     <state x="879" y="152" key="#Python" timestamp="1591920792921">
@@ -303,25 +290,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="341" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314869709" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1597937530045">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1598112105141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598112105141" />
     <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274003" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1597937530045">
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1598112105140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598112105140" />
     <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274002" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1597937530045">
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1598112105140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598112105140" />
     <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274002" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1597937530045">
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1598112105140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598112105140" />
     <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274003" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1597937530045">
       <screen x="0" y="0" width="1366" height="728" />
