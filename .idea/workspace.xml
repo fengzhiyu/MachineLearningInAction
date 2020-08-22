@@ -10,9 +10,30 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31892e0c-96e4-4466-b2c7-1f87c37d8c85" name="Default" comment="update createPlot">
+    <list default="true" id="31892e0c-96e4-4466-b2c7-1f87c37d8c85" name="Default" comment="update bayers.py">
+      <change afterPath="$PROJECT_DIR$/part_5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_5/horseColicTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_5/horseColicTraining.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_5/logRegres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_5/testSet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part_4/bayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/part_4/bayers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +73,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -79,7 +102,7 @@
       <recent name="F:\Program\python program\MachineLearningInAction\part_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bayers">
+  <component name="RunManager" selected="Python.logRegres">
     <configuration name="bayers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearningInAction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,13 +168,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearningInAction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part_5/logRegres.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.bayers" />
       <item itemvalue="Python.decision_tree" />
       <item itemvalue="Python.kNN" />
+      <item itemvalue="Python.logRegres" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logRegres" />
         <item itemvalue="Python.bayers" />
         <item itemvalue="Python.decision_tree" />
         <item itemvalue="Python.kNN" />
@@ -205,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592117709696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update bayers.py">
+      <created>1592494593310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592494593310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,22 +277,24 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/ref source" />
     </ignored-roots>
     <MESSAGE value="init add files." />
     <MESSAGE value="update createPlot" />
-    <option name="LAST_COMMIT_MESSAGE" value="update createPlot" />
+    <MESSAGE value="update bayers.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bayers.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="879" y="152" key="#Python" timestamp="1591920792921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="879" y="152" key="#Python/0.0.1920.1040@0.0.1920.1040" timestamp="1591920792921" />
-    <state x="417" y="127" key="FileChooserDialogImpl" timestamp="1590313231650">
+    <state x="417" y="127" key="FileChooserDialogImpl" timestamp="1593784392368">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="417" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590313231650" />
+    <state x="417" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593784392368" />
     <state x="509" y="261" width="348" height="280" key="Github.ShareDialog" timestamp="1590334540629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -248,35 +303,51 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="341" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314869709" />
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1591922274003">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="99" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590310669173" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
     <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274003" />
-    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1591922274002">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="99" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590310669173" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
     <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274002" />
-    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1591922274002">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="99" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590310669172" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
     <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274002" />
-    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1591922274003">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="99" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590310669173" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
     <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591922274003" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1597937530045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597937530045" />
     <state x="339" y="17" key="SettingsEditor" timestamp="1592397155275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592397155275" />
     <state x="249" y="24" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591922272876" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592117774338">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592494611902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592117774338" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592494611902" />
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590336077921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -285,6 +356,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="343" y="151" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1590330581933" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593184810972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593184810972" />
     <state x="513" y="155" key="svn.repositoryBrowser" timestamp="1590309271221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,6 +376,11 @@
           <url>file://$PROJECT_DIR$/ref source/Ch03/trees.py</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/part_5/logRegres.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
